@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brujería y Santería - Umbra Hechicero</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <!-- Botón de WhatsApp -->
+<div class="whatsapp-btn">
+    <a href="whatsapp://send?phone=+573203062483" target="_blank">
+        <img src="./whatsapp.png" alt="WhatsApp">
+        <span>Click directo a WhatsApp</span>
+    </a>
+     <!-- Botón de Facebook -->
+<div class="facebook-btn">
+    <a href="https://www.facebook.com/profile.php?id=61550213514723" target="_blank">
+        <img src="./facebook.png" alt="Facebook">
+        <span>Click directo a Facebook</span>
+    </a>
+</div>
+        
+    </div>
+    
+
+    <header>
+        <h1>Brujería y Santería - Umbra Hechicero</h1>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Umbra Hechicero</p>
+            <p>WhatsApp:+573203062483 </p>
+            <p>Lunes – Viernes: 9:00 – 21:00</p>
+            <p>Sábados: 9:00 – 17:00</p>
+            <p>Hora Central México</p>
+
+            <form action="enviar_mensaje.php" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="ubicacion">¿De dónde nos contactas?</label>
+                <input type="text" id="ubicacion" name="ubicacion" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+            
+            <p>IMPORTANTE: Las llamadas o mensajes a nuestro número de contacto en WhatsApp y/o teléfonos fijos aplican cargos de acuerdo a su operador de línea telefónica. Y en ningún caso nuestro equipo cobrará algún dinero por dichas llamadas y/o por dicho contacto. El servicio es apto para mayores de 18 años. No reemplaza atención médica o psicológica. La efectividad del servicio puede no ser 100% garantizada. Los resultados pueden variar de persona a persona.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos Los Derechos Reservados © 2022  Umbra Hechicero</p>
+        <p><a href="#">Términos Y Condiciones</a> | <a href="#">Aviso De Privacidad</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
